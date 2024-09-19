@@ -34,12 +34,12 @@ class Rectangle implements Shape {
         this.color = color;
     }
 
-    @Override
+    
     public void draw() {
         System.out.println("Drawing a rectangle with length " + length + ", width " + width + ", and color " + color);
     }
 
-    @Override
+    
     public String getColor() {
         return color;
     }
