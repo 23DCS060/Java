@@ -12,12 +12,12 @@ class Circle implements Shape {
         this.color = color;
     }
 
-    @Override
+    
     public void draw() {
         System.out.println("Drawing a circle with radius " + radius + " and color " + color);
     }
 
-    @Override
+    
     public String getColor() {
         return color;
     }
